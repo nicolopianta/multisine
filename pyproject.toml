@@ -12,6 +12,10 @@ readme = "README.md"
 dependencies = [
     "numpy",
     "matplotlib",
+    # imported by multisine/__init__.py
+    "scipy",
+    "pandas",
+    "galvani",
 ]
 license = "MIT"
 license-files = ["LICENSE"]
